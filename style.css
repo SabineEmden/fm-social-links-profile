@@ -46,3 +46,31 @@ h6 {
   --grey800: rgb(31, 31, 31);
   --grey900: rgb(20, 20, 20);
 }
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap;
+  src: url(./assets/fonts/Inter-Regular-subset.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-display: swap;
+  src: url(./assets/fonts/Inter-SemiBold-subset.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  font-display: swap;
+  src: url(./assets/fonts/Inter-Bold-subset.woff2) format("woff2");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  /* 0.875rem => 0.875 * 16px = 14px */
+  font-size: 0.875rem;
+}
