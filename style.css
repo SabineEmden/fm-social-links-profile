@@ -77,7 +77,6 @@ body {
   background-color: var(--grey900);
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100svh;
   padding: 24px;
 }
@@ -85,6 +84,7 @@ body {
 main {
   flex-grow: 1;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-bottom: 24px;
 }
@@ -93,7 +93,7 @@ main {
 .card {
   text-align: center;
   background-color: var(--grey800);
-  max-width: 24rem;
+  flex-basis: 24rem;
   border-radius: 1rem;
   padding: 2rem;
 }
