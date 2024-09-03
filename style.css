@@ -89,10 +89,51 @@ main {
   padding-bottom: 24px;
 }
 
-/* Card component */
+/* Profile card */
 .card {
+  text-align: center;
   background-color: var(--grey800);
-  border-radius: 16px;
-  max-width: 22rem;
-  padding: 24px;
+  max-width: 24rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.card img {
+  width: 6rem;
+  border-radius: 50%;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.location {
+  font-weight: 700;
+  color: var(--green);
+  margin-bottom: 1.5rem;
+}
+
+.tagline {
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  background-color: var(--grey700);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.links a {
+  color: var(--white);
+  font-weight: 700;
+  display: block;
+  padding: 0.75rem;
 }
