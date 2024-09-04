@@ -152,3 +152,14 @@ main {
 .links a:active {
   background-color: var(--white);
 }
+
+/* Footer */
+.attribution {
+  /* 0.6875rem => 0.6875 * 16px = 11px */
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--green);
+  outline-color: var(--green);
+}
