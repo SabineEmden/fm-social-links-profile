@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/social-links-profile-with-flexbox-b_3ZCSk91z)
 - [GitHub repository](https://github.com/SabineEmden/fm-social-links-profile)
 - [Live site](https://sabineemden.github.io/fm-social-links-profile/)
 
@@ -48,13 +48,13 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS flexbox
 
 ### What I learned
 
-If you look very carefully at the JPEG design file for the desktop layout and compare it with the mobile layout, you can see that in the desktop layout the social links are slightly wider than the paragraph directly above them. In the mobile layout, the width of the links is closer to the width of the paragraph. That is, going from desktop to mobile, the width of the card shrunks to fit the smaller viewport width.
+If you compare the desktop layout with the mobile layout, you can see that on desktop the social links are slightly wider than the paragraph directly above them. On mobile, the width of the links is closer to the width of the paragraph. That is, going from desktop to mobile, the width of the card shrinks to fit the smaller viewport width.
 
-I knew I could achieve this shrinking behavior with Flexbox. What I had to figure out was that the `main` element had to span the whole viewport width. With `main` as a Flexbox container with the default `flex-direction: row`, I used `justify-content: center` and `align-items: center` to center the card horizontally and vertically. `flex-basis: 24rem` and the default `flex-shrink: 1` gave me the desired width of the card component in the desktop layout and the shrinking behavior for small viewport widths.
+I knew I could achieve this shrinking behavior with flexbox. What I had to figure out was that the `main` element had to span the whole viewport width. With `main` as a flexbox container with the default `flex-direction: row`, I used `justify-content: center` and `align-items: center` to center the card horizontally and vertically. `flex-basis: 24rem` and the default `flex-shrink: 1` gave me the desired width of the card component in the desktop layout and the shrinking behavior for small viewport widths.
 
 ```css
 main {
@@ -79,7 +79,7 @@ This project is the third of four challenges on Frontend Mentor's learning path 
 
 ### Useful resources
 
-- [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) by Josh Comeau - I come back to this guide every time I get stuck on a problem with Flexbox.
+- [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) by Josh Comeau - I come back to this guide every time I get stuck on a problem with flexbox.
 - [MDN article on styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links) - This article gives a good introduction to styling links in all their different states.
 
 ## Author
